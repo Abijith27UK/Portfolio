@@ -14,15 +14,17 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  cpp,
   meta,
   starbucks,
   tesla,
+  programming,
+  WEBOPs,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  taskmanager,
+  InstiOLX,
+  stockprice,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +44,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,12 +56,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Competitive Coder",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "C++",
+    icon: cpp,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -69,12 +75,12 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "figma",
+    icon: figma,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "React JS",
@@ -97,28 +103,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "TypeScript",
+    icon: typescript,
+  },   
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Deputy Coordinator",
+    company_name: "Webops and Blockchain Club",
+    icon: WEBOPs,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -129,10 +131,10 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Deputy Coordinator",
+    company_name: "Programming Club",
+    icon: programming,
+    iconBg: "#383E56",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -142,9 +144,9 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Coordinator",
+    company_name: "Webops and Blockchain Club",
+    icon: WEBOPs,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -155,10 +157,10 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    title: "Project Member",
+    company_name: "Webops and Blockchain Club",
+    icon: WEBOPs,
+    iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -170,95 +172,95 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "InstiCollab",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based collaborative task management application designed to help users organize and manage their tasks efficiently. It features user authentication, group chatting , task creation, and categorization of tasks based on their importance and completion status.",
     tags: [
       {
-        name: "react",
+        name: "REACT",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MONGODB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TAILWIND",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: taskmanager,
+    source_code_link: "https://github.com/Abijith27UK/InstiCollab",
   },
   {
-    name: "Job IT",
+    name: "InstiOLX",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform for buying and selling items within your community , here IIT Madras. This project showcases a responsive and visually appealing front-end design for an online marketplace. This website was deployed using AWS",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AWS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: InstiOLX,
+    source_code_link: "https://instiolx.s3.eu-north-1.amazonaws.com/page.html",
   },
   {
-    name: "Trip Guide",
+    name: "Trading API - Stock Price  ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web app that visualizes stock prices using real-time data fetched from API, with options for 5-minute or 1-day intervals showing the opening and closing prices.I integrated the TradingView API to implement candlestick charts for stock price visualization",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JAVASCRIPT",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: stockprice,
+    source_code_link: "https://github.com/Abijith27UK/Trading_StockPrice",
   },
 ];
 
