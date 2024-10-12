@@ -25,6 +25,7 @@ import {
   InstiOLX,
   stockprice,
   python,
+  cfi,
 } from "../assets";
 
 export const navLinks = [
@@ -122,12 +123,10 @@ const experiences = [
     company_name: "Webops and Blockchain Club",
     icon: WEBOPs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learnt basics of what web development exactly is and what langauges are used in web development.",
+      "In my tenure here I learnt git, HTML, CSS and bascis of Javascript. Did many tasks involving HTML, CSS and Javascript.",
     ],
   },
   {
@@ -135,12 +134,10 @@ const experiences = [
     company_name: "Programming Club",
     icon: programming,
     iconBg: "#383E56",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2023 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learnt what competitive coding is and also solve more that 250 problems on platforms like CodeForces, CSES and LeetCode.",
+      "In my tenure here I learnt many interesting algorithms like dynamic programming, binary search, trees(BFS and DFS) and many more.",
     ],
   },
   {
@@ -148,12 +145,10 @@ const experiences = [
     company_name: "Webops and Blockchain Club",
     icon: WEBOPs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I began my tenure by leading the first Summer School session, where I taught HTML and CSS to over 500 participants in MS Teams.",
+      "Conducted many sessions on mulitple topics to juniors. Also attend blockchain sessions conducted and learnt few concepts of blockchain.",
     ],
   },
   {
@@ -161,41 +156,23 @@ const experiences = [
     company_name: "Webops and Blockchain Club",
     icon: WEBOPs,
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I'm working on a project called Tradecraft, which focuses on quant, real-time stock data and hosting quant-based competitions.",
+      "For this project, I've learnt new tech stacks such as React, Node.js, MongoDB, Prisma ORM, and TypeScript",
     ],
   },
-];
-
-const testimonials = [
-//   {
-//     testimonial:
-//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-//     name: "Sara Lee",
-//     designation: "CFO",
-//     company: "Acme Co",
-//     image: "https://randomuser.me/api/portraits/women/4.jpg",
-//   },
-//   {
-//     testimonial:
-//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-//     name: "Chris Brown",
-//     designation: "COO",
-//     company: "DEF Corp",
-//     image: "https://randomuser.me/api/portraits/men/5.jpg",
-//   },
-//   {
-//     testimonial:
-//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-//     name: "Lisa Wang",
-//     designation: "CTO",
-//     company: "456 Enterprises",
-//     image: "https://randomuser.me/api/portraits/women/6.jpg",
-//   },
+  {
+    title: "Software Guild Contingent",
+    company_name: "Centre For Innovation",
+    icon: cfi,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Present",
+    points: [
+      "This is the group of top 40 candidates selected for the Inter IIT Tech Meet, this team is called Guild.",
+      "Had to perform well in a 2 day hackathon to get selected for the Inter IIT Software Guild Contingent",
+    ],
+  },
 ];
 
 const projects = [
@@ -264,4 +241,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences , projects };

@@ -25,8 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import WEBOPs from "./company/WEBOPs&Blockchain.png";
+import WEBOPs from "./company/WEBOPsBlockchain.png";
 import programming from "./company/programmin_club.png";
+import cfi from "./company/CFI.png";
 
 import taskmanager from "./taskmanager.png";
 import InstiOLX from "./InstiOLX.png";
@@ -63,4 +64,5 @@ export {
   taskmanager,
   InstiOLX,
   stockprice,
+  cfi,
 };
