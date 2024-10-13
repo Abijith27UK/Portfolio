@@ -6,10 +6,6 @@ Welcome to my 3D Developer Portfolio! This project showcases my skills and exper
 
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Projects](#projects)
-- [License](#license)
 
 ## Technologies Used
 
